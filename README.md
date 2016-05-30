@@ -18,7 +18,7 @@ The Arduino performs a software reset (on itself) every time it receives a falli
 
 ## Circuit Diagram
 
-Also included is a rudimentary uninterruptable power supply (UPS). If you use a lithium battery, it will be damaged if the voltage per cell drops below 3V.  The UPS can also trigger a Raspberry Pi GPIO pin so that the Raspberry Pi knows if it is running on the battery or not. You do not have to include the UPS if you all you want to do is power cycle a Raspberry Pi when it completely locks up.
+Also included is a rudimentary uninterruptable power supply (UPS). If you use a lithium battery, it will be damaged if the voltage per cell drops below 3V.  The UPS can also trigger a Raspberry Pi GPIO pin so that the Raspberry Pi knows if it is running on the battery or not. You do not have to include the UPS if all you want to do is power cycle a Raspberry Pi when it completely locks up.
 
 ![Watch_The_Pi](PiPower.jpg)
 
