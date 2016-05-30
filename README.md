@@ -14,7 +14,7 @@ This program will send a pulse every 30 seconds. By default it uses GPIO21 which
 
 ## The Arduino
 
-The Arduino performs a software reset (on itself) every time it receives a falling edge on pin D2 so that it should never reach the part of the program where it disconnect the Raspberry Pi power for 5 seconds by energising the relay i.e. the Arduino reboots every 30 seconds (the time of the "pat" from the Raspberry Pi) during the delay(300000). The falling edge is important in case the Raspberry Pi locks up half way through a "pat".
+The Arduino performs a software reset (on itself) every time it receives a falling edge on pin D2 so that it should never reach the part of the program where it disconnect the Raspberry Pi power for 5 seconds by energising the relay i.e. the Arduino reboots every 30 seconds (the time of the "pat" from the Raspberry Pi) during the delay(300000). The falling edge is important in case the Raspberry Pi locks up half way through a "pat". A connection to the Arduino Reset pin was considered but the Pi could lockup in a state where the Reset pin was permanently set and thus the Pi would never get power cycled.
 
 ## Circuit Diagram
 
