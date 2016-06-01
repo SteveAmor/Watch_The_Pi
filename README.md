@@ -22,3 +22,9 @@ Also included is a rudimentary uninterruptable power supply (UPS). If you use a 
 
 ![Watch_The_Pi](PiPower.jpg)
 
+## Photos
+
+![Watch_The_Pi](powerBoard.jpg)
+
+![Watch_The_Pi](powerBoardAndPi.jpg)
+
