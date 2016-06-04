@@ -28,3 +28,7 @@ Also included is a rudimentary uninterruptable power supply (UPS). If you use a 
 
 ![Watch_The_Pi](powerBoardAndPi.jpg)
 
+## Alternative solution using a time switch to power cycle the Pi every 24 hours
+
+On boot up, shutdown the Pi after 23hrs 55mins. Mains time switch off for 1 min every 24hrs.
+
